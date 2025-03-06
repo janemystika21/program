@@ -1,4 +1,3 @@
-
 * {
     padding: 0;
     margin: 0;
@@ -59,10 +58,12 @@
     background-color: blue;
     color: white;
 }
-.two{
-    margin-left:7px;
+
+.two {
+    margin-left: 7px;
 }
 
+/* Body Section */
 .body {
     display: flex;
     align-items: center;
@@ -70,13 +71,14 @@
     width: 100%;
     padding: 10px 100px;
     background-color: #F7F9FF;
-    height:788px;
+    height: 788px;
+
 }
 
 .content {
     max-width: 600px;
-    margin-left:50px;
-    margin-top:-80px;
+    margin-left: 50px;
+    margin-top: -80px;
 }
 
 .content h1 {
@@ -119,36 +121,147 @@
     position: relative;
     width: 600px;
     height: 425px;
-    margin-right:100px;
-    margin-top:-80px;
+    margin-right: 100px;
+    margin-top: -80px;
 }
 
-.image{
-    margin-left:200px;
+.image {
+    margin-left: 200px;
 }
-.pic{
-    margin-bottom:-20px;
-    margin-left:-30px;
+
+.pic {
+    margin-bottom: -20px;
+    margin-left: -30px;
 }
-.picc{
-    margin-bottom:-10px;
-    margin-left:10px;
+
+.picc {
+    margin-bottom: -10px;
+    margin-left: 10px;
 }
-.video{
-    height:70px;
-    width:100%;
+
+/* Video Section */
+.video {
+    width: 100%;
     align-items: center;
+    padding-top: 150px;
+    height:650px;
 }
-.video h1{
-   text-align:center;
+
+.video h2 {
+    text-align: center;
+    margin-bottom: 30px;
 }
-.grp{
-    justify-content:space-around;
-    align-items:center;
-    display:flex;
-    width:80%;
-    gap:5px;
-    margin-right: auto;
-    margin-left:auto ;
-    padding-top: 50px;
+
+.grp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    gap:20px; 
+}
+
+.grp img {
+    max-width: 33.333%; /* Each image takes exactly one-third of the width */
+    height: auto;
+    display: block; /* Removes any default spacing */
+}
+
+/* For responsive design */
+@media (max-width: 768px) {
+    .grp {
+        flex-direction: column;
+    }
+    
+    .grp img {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+}
+.services-row {
+    width: 1003px;
+    display: flex;
+    height: 209px;
+    top: 1525px;
+    left: 182px;
+    justify-content: space-around;
+    margin-left: 120px;
+}
+
+.rocket {
+    margin-right: 950px;
+}
+
+.service-box {
+    width: 220px;
+    height: 191px;
+    top: 87px;
+    padding-bottom: 40px;
+}
+
+.service-title {
+    font-family: "Gilroy-Bold", sans-serif;
+    width: 257px;
+    height: 24px;
+    margin-top: 24px;
+    color: #121214;
+    font-weight: bold;
+    top: 84px;
+}
+
+.service-description {
+    width: 287px;
+    margin-top: 8px;
+    height: 71px;
+    top: 120px;
+    color: #555;
+    font-family: "Gilroy-Bold", sans-serif;
+}
+.services-container {
+    text-align: center;
+    background-color: #F7F9FF;
+}
+
+.section-title {
+    font-family: "Gilroy-Bold", sans-serif;
+    color: #121214;
+    margin-bottom: 50px;
+    padding-top:40px;
+}
+
+.services-row {
+    width: 1003px;
+    display: flex;
+    height: 209px;
+    justify-content: space-around;
+    margin: 87px auto;
+}
+
+.rocket {
+    margin-right: 950px;
+}
+
+.service-box {
+    width: 220px;
+    height: 191px;
+    padding-bottom: 40px;
+    text-align: left;
+}
+
+.service-title {
+    font-family: "Gilroy-Bold", sans-serif;
+    width: 257px;
+    height: 24px;
+    margin-top: 24px;
+    color: #121214;
+    font-weight: bold;
+}
+
+.service-description {
+    width: 287px;
+    margin-top: 8px;
+    height: 71px;
+    color: #555;
+    font-family: "Gilroy-Bold", sans-serif;
 }
